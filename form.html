@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Form</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+       
+        <form method="post">
+            <h1>Registration Form:</h1>
+            <label>Your Name*:</label>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <label>Gender*:</label>
+            <div class="gender">
+                <label><input type="radio" name="gender" value="female">Female</label>
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="other">Other</label>
+            </div>
+            <label>What are your hobbies?</label>
+            <div class="hobbies">
+                <label><input type="checkbox" value="reading">Reading</label>
+                <label><input type="checkbox" value="social media">Social Media</label>
+                <label><input type="checkbox" value="cooking">Cooking</label>
+                <label><input type="checkbox" value="shopping">Shopping</label>
+            </div>
+            <label>Country*:</label>
+            <select name="Country">
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="USA">USA</option>
+            </select>
+            <label>Additional Comments:</label>
+            <input type="text" placeholder="Write your comments here:">
+            <label>Password:</label>
+            <input type="password" placeholder="Enter your password:">
+            <button type="submit">Register</button>
+        </form>
+    </body>
+</html>
